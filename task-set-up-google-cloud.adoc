@@ -1,0 +1,70 @@
+---
+sidebar: sidebar 
+permalink: task-set-up-google-cloud.html 
+keywords: setup, set up, api, service account, requirements, permissions 
+summary: Cloud Manager는 Cloud Volumes Service API에 액세스하고 Google Cloud 서비스 계정을 통해 적절한 권한을 부여해야 합니다. 
+---
+= Google Cloud를 설정합니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cloud Manager는 Cloud Volumes Service API에 액세스하고 Google Cloud 서비스 계정을 통해 적절한 권한을 부여해야 합니다.
+
+
+
+== Cloud Volumes Service API를 활성화합니다
+
+Google Cloud Shell에서 다음 명령을 실행하여 Cloud Volumes Service API를 사용하도록 설정합니다.
+
+gcloud--project=<my-cvs-project> 서비스는 cloudvolumesgcp-api.netapp.com` 를 활성화합니다
+
+
+
+== 서비스 계정을 설정합니다
+
+Cloud Manager가 Google Cloud 프로젝트에 액세스할 수 있도록 다음 작업을 완료합니다.
+
+* 새 서비스 계정을 만듭니다
+* 프로젝트에 새 서비스 계정 구성원을 추가하고 특정 역할(권한)을 할당합니다.
+* Google 인증에 사용되는 서비스 계정에 대한 키 쌍을 만들고 다운로드합니다
+
+
+.단계
+. Google Cloud 콘솔에서 https://console.cloud.google.com/iam-admin/serviceaccounts["서비스 계정 페이지로 이동합니다"^].
+. 프로젝트 선택 * 을 클릭하고 프로젝트를 선택한 다음 * 열기 * 를 클릭합니다.
+. 서비스 계정 만들기 * 를 클릭합니다.
+. 서비스 계정 이름(표시 이름)과 설명을 입력합니다.
++
+Cloud Console은 이 이름을 기반으로 서비스 계정 ID를 생성합니다. 필요한 경우 ID 편집 - 나중에 ID를 변경할 수 없습니다.
+
+. 지금 액세스 제어를 설정하려면 페이지 하단에서 * 만들기 * 를 클릭한 후 * 완료 * 를 클릭하고 다음 단계를 계속합니다.
+. IAM 페이지에서 * Add * 를 클릭하고 _ Add Members_페이지의 필드를 입력합니다.
++
+.. 새 구성원 필드에 전체 서비스 계정 ID(예: user1-service-account-cvs@project1.iam.gserviceaccount.com 입력합니다.
+.. 다음 역할을 추가합니다.
++
+*** _NetApp Cloud Volumes 관리자 _
+*** _네트워크 뷰어 계산 _
+
+
+.. 저장 * 을 클릭합니다.
+
+
+. 서비스 계정 이름을 클릭한 다음 _ 서비스 계정 세부 정보 _ 페이지에서 * 키 추가 > 새 키 만들기 * 를 클릭합니다.
+. 키 유형으로 * JSON * 을 선택하고 * Create * 를 클릭합니다.
++
+생성 * 을 클릭하면 새 공개/개인 키 쌍이 생성되어 시스템에 다운로드됩니다. 이 키는 개인 키의 유일한 사본으로 사용됩니다. 이 파일은 서비스 계정으로 인증하는 데 사용할 수 있으므로 안전하게 보관하십시오.
+
+
+
+자세한 단계는 Google Cloud 설명서를 참조하십시오.
+
+* link:https://cloud.google.com/iam/docs/creating-managing-service-accounts["서비스 계정 생성 및 관리"^]
+* link:https://cloud.google.com/iam/docs/granting-changing-revoking-access["리소스에 대한 액세스 권한 부여, 변경 및 해지"^]
+* link:https://cloud.google.com/iam/docs/creating-managing-service-account-keys["서비스 계정 키 생성 및 관리"^]
+

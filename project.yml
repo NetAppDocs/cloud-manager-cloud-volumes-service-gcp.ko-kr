@@ -1,0 +1,71 @@
+---
+settings:
+  name: Cloud Volumes Service for Google Cloud
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: ko-kr,us-en,ja-jp,zh-cn
+sidebar:
+  entries:
+  - title: 모든 Cloud Manager 설명서
+    url: https://docs.netapp.com/us-en/cloud-manager-family
+  - title: Google Cloud용 Cloud Volumes Service 문서
+    url: "/index.html"
+  - title: 릴리스 정보
+    url: "/whats-new.html"
+  - title: 시작하십시오
+    entries:
+    - title: Google Cloud용 Cloud Volumes Service에 대해 자세히 알아보십시오
+      url: "/concept-cvs-gcp.html"
+    - title: 빠른 시작
+      url: "/task-quick-start.html"
+    - title: Google Cloud를 설정합니다
+      url: "/task-set-up-google-cloud.html"
+    - title: 작업 환경을 만듭니다
+      url: "/task-create-working-env.html"
+  - title: Cloud Volumes Service for Google Cloud를 사용합니다
+    entries:
+    - title: 볼륨을 생성 및 마운트합니다
+      url: "/task-create-volumes.html"
+    - title: 기존 볼륨 관리
+      url: "/task-manage-volumes.html"
+    - title: 클라우드 볼륨 스냅샷을 관리합니다
+      url: "/task-manage-snapshots.html"
+    - title: Active Directory 구성을 관리합니다
+      url: "/task-manage-active-directory.html"
+    - title: Cloud Volumes Service를 제거합니다
+      url: "/task-remove-working-env.html"
+  - title: 지식 및 지원
+    entries:
+    - title: 지원을 위해 등록하십시오
+      url: "/task-support-registration.html"
+    - title: 도움을 받으십시오
+      url: "/task-get-help.html"
+  - title: 법적 고지
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: 시작하십시오
+    links:
+    - title: Google Cloud용 Cloud Volumes Service에 대해 자세히 알아보십시오
+      url: concept-cvs-gcp.html
+    - title: 빠른 시작
+      url: task-quick-start.html
+  - title: Cloud Volumes Service for Google Cloud를 사용합니다
+    links:
+    - title: 볼륨 생성
+      url: task-create-volumes.html
+    - title: 클라우드 스냅샷 관리
+      url: task-manage-snapshots.html
+  - title: 블로그 커뮤니티
+    links:
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Cloud Central 블로그
+      url: https://cloud.netapp.com/blog
+    - title: 클라우드 웨비나
+      url: https://cloud.netapp.com/events
+product-family: {}

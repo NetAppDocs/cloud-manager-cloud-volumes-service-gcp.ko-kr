@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: task-remove-working-env.html 
+keywords: remove working environment, delete working environment, remove cloud volumes service, remove, delete 
+summary: Cloud Volumes Service for Google Cloud 구독과 Cloud Manager에서 모든 기존 볼륨을 제거할 수 있습니다. 볼륨은 삭제되지 않으며 Cloud Manager 인터페이스에서 방금 제거됩니다. 
+---
+= Cloud Manager에서 Cloud Volumes Service를 제거합니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cloud Volumes Service for Google Cloud 구독과 Cloud Manager에서 모든 기존 볼륨을 제거할 수 있습니다. 볼륨은 삭제되지 않으며 Cloud Manager 인터페이스에서 방금 제거됩니다.
+
+
+TIP: Cloud Manager에서 Google Cloud용 Cloud Volumes Service 구독을 삭제할 수 없습니다. Google Cloud Console을 통해서만 이 작업을 수행할 수 있습니다.
+
+.단계
+. 작업 환경을 엽니다.
+. 를 클릭합니다 image:screenshot_gallery_options.gif[""] 단추를 클릭하고 <Cloud Volumes Service 제거>*를 클릭합니다.
+. 확인 대화 상자에서 * 제거 * 를 클릭합니다.
+

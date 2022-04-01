@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes' 
+summary: Cloud Volumes Service for Google Cloud의 Cloud Manager의 새로운 기능에 대해 알아보십시오. 
+---
+= 새로운 기능
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cloud Volumes Service for Google Cloud의 Cloud Manager의 새로운 기능에 대해 알아보십시오.
+
+
+
+== 2020년 9월 9일
+
+
+
+=== Cloud Volumes Service for Google Cloud 지원
+
+이제 Cloud Manager에서 Cloud Volumes Service for Google Cloud를 직접 관리할 수 있습니다.
+
+* 작업 환경 설정 및 생성
+* Linux 및 UNIX 클라이언트용 NFSv3 및 NFSv4.1 볼륨을 생성하고 관리합니다
+* Windows 클라이언트용 SMB 3.x 볼륨을 생성하고 관리합니다
+* 볼륨 스냅숏을 생성, 삭제 및 복원합니다
+

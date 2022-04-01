@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="597907fb22ffd6d5d99abe19205161d6" category="summary">다음 단계를 따라 빠르게 시작하거나 링크를 따라 자세한 내용을 확인하십시오.</block>
+  <block id="04476610d425410da3c197a32de6a851" category="doc">Cloud Volumes Service for Google Cloud를 빠르게 시작합니다</block>
+  <block id="51854a19c4259f68487a6142b24a127b" category="paragraph">Google에서 Cloud Volumes Service for GCP API를 활성화하여 Cloud Manager가 가입 및 클라우드 볼륨을 관리할 수 있도록 합니다.</block>
+  <block id="95b3ec34634e3102d6acf0de3fc1d2fc" category="inline-link-macro">API를 활성화하는 방법에 대해 알아봅니다</block>
+  <block id="09343065e2ebc25d01e7ea8194218f67" category="paragraph"><block ref="9726afe0fed23e53ca72118b2c823abb" category="inline-link-macro-rx"></block>.</block>
+  <block id="b37f2372acf4547f9f0ef25572764639" category="paragraph">Google에서 클라우드 관리자가 Google Cloud용 Cloud Volumes Service 계정에 액세스할 수 있도록 서비스 계정 및 역할을 생성합니다.</block>
+  <block id="46b491767cd12d81f9bf9593f5a96cf7" category="inline-link-macro">서비스 계정 설정 방법에 대해 알아보십시오</block>
+  <block id="28d2901977b5fc7c248b5b66937c0876" category="paragraph"><block ref="73d99899af631bbb52840dc78039ca4d" category="inline-link-macro-rx"></block>.</block>
+  <block id="dd50973260de02b147ef0408f27d7b00" category="paragraph">Cloud Manager에서 * 작업 환경 추가 * &gt; * Google Cloud * &gt; * Cloud Volumes Service * 를 클릭한 다음 서비스 계정 및 Google Cloud 프로젝트에 대한 세부 정보를 제공합니다.</block>
+  <block id="328958ba41a282fb8b8b971eb10845bd" category="inline-link-macro">작업 환경을 만드는 방법에 대해 알아봅니다</block>
+  <block id="75aec57e5da1cc40dc30b7d1be476ab4" category="paragraph"><block ref="87d286565b204dd2a8d4bf83463a6fe9" category="inline-link-macro-rx"></block>.</block>
+  <block id="5876c30cdb96c38d4cc2497feffde111" category="summary">각 볼륨에 대한 스냅샷 정책을 생성하여 이전 시간에 볼륨의 전체 내용을 복구하거나 복원할 수 있습니다. 필요한 경우 클라우드 볼륨의 온디맨드 스냅샷을 생성할 수도 있습니다.</block>
+  <block id="bf7d38473ac37a5a084d9d1f21a4002c" category="doc">클라우드 볼륨 스냅샷을 관리합니다</block>
+  <block id="2530ad97c013f5d8d9c69004a4e7ee67" category="section-title">필요 시 스냅샷을 생성합니다</block>
+  <block id="377828daafe235f0aafbc80626a92a44" category="paragraph">현재 볼륨 상태의 스냅샷을 생성하려면 클라우드 볼륨의 필요 시 스냅샷을 생성할 수 있습니다.</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
+  <block id="6c970f68c7cf5a446d127ac3ab6d72f7" category="list-text">작업 환경을 엽니다.</block>
+  <block id="bb06f880c297b34268ea12d1602837bb" category="list-text">볼륨 위로 마우스를 이동하고 * Create a snapshot copy * 를 클릭합니다.</block>
+  <block id="f6abfc5070e6bcda72d651ecad906489" category="list-text">스냅샷의 이름을 입력하거나 자동으로 생성된 이름을 사용하고 * Create * 를 클릭합니다.</block>
+  <block id="2209a54e85463699d44111ce0c0a236a" category="inline-image-macro">새 볼륨으로 복구할 스냅샷 복사본을 선택하는 스크린샷</block>
+  <block id="f989d58bb69770d84593492ff494f094" category="paragraph"><block ref="f989d58bb69770d84593492ff494f094" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6459290d6e095d59cc3f6660e9e9ba67" category="paragraph">스냅샷이 생성됩니다.</block>
+  <block id="e5424232e5c3cbc0b77accf10fc38470" category="section-title">스냅샷 정책을 생성하거나 수정합니다</block>
+  <block id="4fec62b4aa71f93e589147ab337d3a3a" category="paragraph">클라우드 볼륨에 필요한 경우 스냅샷 정책을 생성하거나 수정할 수 있습니다. 볼륨을 생성할 때나 볼륨을 편집할 때 _Snapshot Policy_Tab에서 스냅샷 정책을 정의합니다.</block>
+  <block id="e7869c8f9e6db9876598b0ae71814661" category="list-text">볼륨 위로 마우스를 가져간 후 * Edit * 를 클릭합니다.</block>
+  <block id="13936fb1e8cab81aa5c50bc2a7991029" category="list-text">Snapshot Policy_탭에서 Enable snapshots 슬라이더를 오른쪽으로 이동합니다.</block>
+  <block id="6fcb64b90c6b69153987bd2a5934500e" category="list-text">스냅샷 스케줄 정의:</block>
+  <block id="0c8182bf573f25aa41ea1b97ef990daf" category="list-text">빈도 * 시간별 *, * 일별 *, * 주별 * 또는 * 월별 * 중에서 선택합니다</block>
+  <block id="95f0f96e7a13d18ec4b4cc683cac354a" category="list-text">유지할 스냅샷 수를 선택합니다.</block>
+  <block id="d83574476baea70ecfe273fcb08a92b1" category="list-text">스냅샷을 생성해야 하는 일, 시간 및 분을 선택합니다.</block>
+  <block id="23643dc2c2630e1cd190257bc60fe38e" category="inline-image-macro">구성된 스냅샷 정책의 스크린샷</block>
+  <block id="a88d31c8b3d36cada7ac3f645dbdd24b" category="paragraph"><block ref="a88d31c8b3d36cada7ac3f645dbdd24b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="559ab4c9d098436cfbf33391cfeecf7f" category="list-text">볼륨 추가 * 또는 * 볼륨 업데이트 * 를 클릭하여 정책 설정을 저장합니다.</block>
+  <block id="c97414d9e21703e37b875d9f1d8dfb74" category="section-title">스냅샷 정책을 사용하지 않도록 설정합니다</block>
+  <block id="f2dd955514c60fad76437ba0f7550a7f" category="paragraph">스냅샷 정책 설정을 유지하는 동안 잠시 동안 스냅샷이 생성되지 않도록 스냅샷 정책을 사용하지 않도록 설정할 수 있습니다.</block>
+  <block id="7a732251673ef876881925c7f8facaa0" category="list-text">Snapshot Policy_탭에서 Enable snapshots 슬라이더를 왼쪽으로 이동합니다.</block>
+  <block id="39e4d7ad6415acefc633ce23184ef5d5" category="inline-image-macro">비활성화된 위치의 스냅샷 정책 단추 스크린샷</block>
+  <block id="bcbed048badd671015bc9a700a9ee184" category="paragraph"><block ref="bcbed048badd671015bc9a700a9ee184" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fc220eb1d5572bf36eac03104db8fd04" category="list-text">볼륨 업데이트 * 를 클릭합니다.</block>
+  <block id="0932c32fdddde924b270a62a2ae2cd0e" category="paragraph">스냅샷 정책을 다시 활성화하려면 스냅샷 활성화 슬라이더를 오른쪽으로 이동하고 * 볼륨 업데이트 * 를 클릭합니다.</block>
+  <block id="efb44cfe1d5b8d9954ea045385675c66" category="section-title">스냅샷을 삭제합니다</block>
+  <block id="01270341151a1d822c548abc778b27ea" category="paragraph">더 이상 필요하지 않은 스냅샷은 삭제할 수 있습니다.</block>
+  <block id="7552d0e963760ace00d752fb123989a3" category="list-text">볼륨 위로 마우스를 가져간 후 * 스냅샷 복사본 삭제 * 를 클릭합니다.</block>
+  <block id="b8d7a446f6dbe49089b4c415dc2e8037" category="list-text">드롭다운 목록에서 스냅샷을 선택하고 * Delete * 를 클릭합니다.</block>
+  <block id="9c673ecd9d0dddf896cc55f2127056d8" category="inline-image-macro">삭제할 스냅샷 복사본을 선택하는 스크린샷</block>
+  <block id="41a98f64ec73ced976239a7861d67e1c" category="paragraph"><block ref="41a98f64ec73ced976239a7861d67e1c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e1899e67aa8aec45bef5dc600fc2ae14" category="list-text">확인 대화 상자에서 * 삭제 * 를 클릭합니다.</block>
+  <block id="873e0406fa26efb41adbaa13d68a75aa" category="section-title">스냅샷을 새 볼륨으로 복구합니다</block>
+  <block id="3d1f395f071b82aa2483997ed6a950f4" category="paragraph">필요에 따라 스냅샷을 새 볼륨으로 복원할 수 있습니다.</block>
+  <block id="4610617cfe3d68ad951e3cbe5838d48f" category="list-text">볼륨 위로 마우스를 이동하고 * 새 볼륨으로 복원 * 을 클릭합니다.</block>
+  <block id="f00381a2986fdab955681fe6c60ce7ed" category="list-text">드롭다운 목록에서 새 볼륨을 생성하는 데 사용할 스냅샷을 선택합니다.</block>
+  <block id="a5e417c4429a4d261016484925d60eed" category="list-text">새 볼륨의 이름을 입력하고 * 복원 * 을 클릭합니다.</block>
+  <block id="12fac297323644da3ff2e0153eeb71e2" category="paragraph"><block ref="12fac297323644da3ff2e0153eeb71e2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ca4c6ba75b4d9ae132e9e540b993e8c8" category="paragraph">작업 환경에서 볼륨이 생성됩니다.</block>
+  <block id="318099df58f11dc94302fadee00fb7b2" category="list-text">볼륨 경로 또는 서비스 수준과 같은 볼륨 특성을 변경해야 하는 경우:</block>
+  <block id="2c55e8dc4183c50c0009f5d04bc6a083" category="list-text">변경하고 * 볼륨 업데이트 * 를 클릭합니다.</block>
+  <block id="ff74d9d1d3fca1c7a3ef1f4d83f84caa" category="inline-link-macro">클라우드 볼륨을 마운트합니다</block>
+  <block id="f4b43cd0d32ccc6ae1ae7fd55ec60faf" category="paragraph">를 계속 진행합니다 <block ref="711ebf19377f2c6ac55625f313ee444a" category="inline-link-macro-rx"></block>.</block>
+  <block id="a8867a21a7fa1494ec13e3530d19b978" category="summary">Cloud Manager는 Cloud Volumes Service API에 액세스하고 Google Cloud 서비스 계정을 통해 적절한 권한을 부여해야 합니다.</block>
+  <block id="40b96cc305f26bed96812c2920065f5d" category="doc">Google Cloud를 설정합니다</block>
+  <block id="c0d5abaa52a2adc8b50cf6748143a972" category="section-title">Cloud Volumes Service API를 활성화합니다</block>
+  <block id="db680318754971180f12e167ae5f6325" category="paragraph">Google Cloud Shell에서 다음 명령을 실행하여 Cloud Volumes Service API를 사용하도록 설정합니다.</block>
+  <block id="c4c67ba5b51827067dc9257fb3040a30" category="paragraph">gcloud--project=&lt;my-cvs-project&gt; 서비스는 cloudvolumesgcp-api.netapp.com` 를 활성화합니다</block>
+  <block id="ec8725380aa2f688c9b9d45557c44600" category="section-title">서비스 계정을 설정합니다</block>
+  <block id="91066c1fc41c9558d9b205e32bcfb6ad" category="paragraph">Cloud Manager가 Google Cloud 프로젝트에 액세스할 수 있도록 다음 작업을 완료합니다.</block>
+  <block id="cb939d621f46e6895da8fb3a52fbcf83" category="list-text">새 서비스 계정을 만듭니다</block>
+  <block id="172cabf35e2da2e485725633d4544c4b" category="list-text">프로젝트에 새 서비스 계정 구성원을 추가하고 특정 역할(권한)을 할당합니다.</block>
+  <block id="b8da17ea9f82689a4cc87ac02b337328" category="list-text">Google 인증에 사용되는 서비스 계정에 대한 키 쌍을 만들고 다운로드합니다</block>
+  <block id="ab6fcc124e86604f6bab5da13aaea51a" category="inline-link">서비스 계정 페이지로 이동합니다</block>
+  <block id="7dc4b63dc4834aecd751b91ed3de3d39" category="list-text">Google Cloud 콘솔에서<block ref="72863ecd427c906452e0c3d21111bdac" category="inline-link-rx"></block>.</block>
+  <block id="e4ca5adc5a86c098ce9d6bd2f42dc178" category="list-text">프로젝트 선택 * 을 클릭하고 프로젝트를 선택한 다음 * 열기 * 를 클릭합니다.</block>
+  <block id="bdac2dc9c1216cbabea4f0c3c6dbd7eb" category="list-text">서비스 계정 만들기 * 를 클릭합니다.</block>
+  <block id="81c36eb6a7aa6110855ae09fd80381ab" category="list-text">서비스 계정 이름(표시 이름)과 설명을 입력합니다.</block>
+  <block id="66335d9ae4276106da10a758c0c3c8b7" category="paragraph">Cloud Console은 이 이름을 기반으로 서비스 계정 ID를 생성합니다. 필요한 경우 ID 편집 - 나중에 ID를 변경할 수 없습니다.</block>
+  <block id="8971b16610cb4efa4b6c83e3ad176094" category="list-text">지금 액세스 제어를 설정하려면 페이지 하단에서 * 만들기 * 를 클릭한 후 * 완료 * 를 클릭하고 다음 단계를 계속합니다.</block>
+  <block id="4bd66ea95ac91bc82cdc097c3614f96c" category="list-text">IAM 페이지에서 * Add * 를 클릭하고 _ Add Members_페이지의 필드를 입력합니다.</block>
+  <block id="91193149b6c0dbfe2760ec8c62b016e7" category="list-text">새 구성원 필드에 전체 서비스 계정 ID(예: user1-service-account-cvs@project1.iam.gserviceaccount.com 입력합니다.</block>
+  <block id="e6915ea331526f7f3221d5b019733157" category="list-text">다음 역할을 추가합니다.</block>
+  <block id="ea34dd9c3c884049d43a2ee08126a1e2" category="list-text">_NetApp Cloud Volumes 관리자 _</block>
+  <block id="a69f1e2412a22a1f3153b3553fb2a1d1" category="list-text">_네트워크 뷰어 계산 _</block>
+  <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">저장 * 을 클릭합니다.</block>
+  <block id="1baa368f450d37450a1cb47c6b7dd320" category="list-text">서비스 계정 이름을 클릭한 다음 _ 서비스 계정 세부 정보 _ 페이지에서 * 키 추가 &gt; 새 키 만들기 * 를 클릭합니다.</block>
+  <block id="744132d4bfa3718f3315f6d3187cba60" category="list-text">키 유형으로 * JSON * 을 선택하고 * Create * 를 클릭합니다.</block>
+  <block id="ef17d662e8cfc44a88102effe9136080" category="paragraph">생성 * 을 클릭하면 새 공개/개인 키 쌍이 생성되어 시스템에 다운로드됩니다. 이 키는 개인 키의 유일한 사본으로 사용됩니다. 이 파일은 서비스 계정으로 인증하는 데 사용할 수 있으므로 안전하게 보관하십시오.</block>
+  <block id="0eff7de92af8c65ac32bf20be9393a92" category="paragraph">자세한 단계는 Google Cloud 설명서를 참조하십시오.</block>
+  <block id="7ef475b3aa654a4c77b576b7b693b979" category="inline-link-macro">서비스 계정 생성 및 관리</block>
+  <block id="fc4ab4403cd96c67fe73442b8080f683" category="list-text"><block ref="fc4ab4403cd96c67fe73442b8080f683" category="inline-link-macro-rx"></block></block>
+  <block id="b666e33c85ae74bc39da9e25479b2d5b" category="inline-link-macro">리소스에 대한 액세스 권한 부여, 변경 및 해지</block>
+  <block id="543336bbad88b5d4f6aab813afbcd38f" category="list-text"><block ref="543336bbad88b5d4f6aab813afbcd38f" category="inline-link-macro-rx"></block></block>
+  <block id="17337f696c024b9e31f4396f97e2d0b0" category="inline-link-macro">서비스 계정 키 생성 및 관리</block>
+  <block id="29d3428cb13e4cac2f40807938da5dc8" category="list-text"><block ref="29d3428cb13e4cac2f40807938da5dc8" category="inline-link-macro-rx"></block></block>
+  <block id="83472337cbb57099afa660a35a9c3772" category="summary">스토리지 요구사항의 변화에 따라 기존 볼륨을 관리할 수 있습니다. 볼륨을 보고, 편집하고, 복원하고, 삭제할 수 있습니다.</block>
+  <block id="9038e7cfcfe9bb9df9afd31371070be8" category="doc">기존 볼륨 관리</block>
+  <block id="51c267e93c101971f1edda68c933c864" category="list-text">볼륨 위로 마우스를 이동합니다.</block>
+  <block id="f102d2437687d23a5ac4fb68ea34668f" category="inline-image-macro">볼륨 작업을 수행할 수 있는 볼륨 가리키기 메뉴 스크린샷</block>
+  <block id="12618a0cf16fe919277e98ec9d44a180" category="paragraph"><block ref="12618a0cf16fe919277e98ec9d44a180" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="75ab567efb1db447b59b0343c1a2ceb3" category="list-text">볼륨 관리:</block>
+  <block id="eaeb30f9f18e0c50b178676f3eaef45f" category="cell">작업</block>
+  <block id="004bf6c9a40003140292e97330236c53" category="cell">조치</block>
+  <block id="289d57ca7886b8016f08f4d17ad68a55" category="cell">볼륨에 대한 정보를 봅니다</block>
+  <block id="1a75d1d5ebc6d526f309bba66a6b717c" category="cell">정보 * 를 클릭합니다.</block>
+  <block id="a262a83ffe24815a6e18b8655e7c9d3c" category="cell">볼륨 편집(스냅샷 정책 포함)</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="doc"></block>
+  <block id="4a1938d0e423380a1497b6177cf5dc1c" category="list-text">편집 * 을 클릭합니다.</block>
+  <block id="13f2f059150e745212f31d522267cd21" category="list-text">볼륨의 속성을 수정한 다음 * 업데이트 * 를 클릭합니다.</block>
+  <block id="57ad6d7575a56679decf17fe96fcf1d0" category="cell">NFS 또는 SMB 마운트 명령을 가져옵니다</block>
+  <block id="ae21b5c5fb2e9febee97efa2eb6b9285" category="list-text">볼륨 마운트 * 를 클릭합니다.</block>
+  <block id="8f636e3ecab79b837953c9b370f79329" category="list-text">복사 * 를 클릭하여 명령을 복사합니다.</block>
+  <block id="7037507985b932c715517fcf78ae11e3" category="cell">필요 시 스냅샷 복사본을 생성합니다</block>
+  <block id="24f7235ff22dc3892828c08842e689a8" category="list-text">스냅샷 복사본 생성 * 을 클릭합니다.</block>
+  <block id="4e421f73920c619b2a88e35f954c3429" category="list-text">필요한 경우 이름을 변경한 다음 * 만들기 * 를 클릭합니다.</block>
+  <block id="f8e9baca287188400b353f0fe39c789e" category="cell">볼륨을 스냅샷 복사본의 내용으로 교체합니다</block>
+  <block id="e837b92d7195c8af36a1e16d5b98647e" category="list-text">볼륨을 스냅샷으로 되돌리기 * 를 클릭합니다.</block>
+  <block id="5eb4305250870db39b1ce1fef395849e" category="list-text">스냅샷 복사본을 선택하고 * 복원 * 을 클릭합니다.</block>
+  <block id="7b364050ccd47e83ca87e25526786072" category="cell">스냅샷 복사본을 삭제합니다</block>
+  <block id="7e026074df0bbceb5332d6d0fcfff97d" category="list-text">스냅샷 복사본 삭제 * 를 클릭합니다.</block>
+  <block id="00a6e5d778d81fd35251dad7b72cbd9c" category="list-text">스냅샷을 선택하고 * Delete * 를 클릭합니다.</block>
+  <block id="17261ee2157a48b4bfa8bffabc397f40" category="list-text">확인 메시지가 나타나면 * 삭제 * 를 다시 클릭합니다.</block>
+  <block id="8e9a64bda9d21f945b6489df2e7946e1" category="cell">볼륨을 삭제합니다</block>
+  <block id="e7d176ac7539a52a08943f65ecc19e32" category="list-text">모든 클라이언트에서 볼륨을 마운트 해제합니다.</block>
+  <block id="23394565644d9607267c2577190c4654" category="list-text">Linux 클라이언트의 경우 'umount' 명령을 사용합니다.</block>
+  <block id="b70c71384dfeac0e536c343872f2fb55" category="list-text">Windows 클라이언트에서 * 네트워크 드라이브 연결 해제 * 를 클릭합니다.</block>
+  <block id="150cd3111dfd7ae68aaeb429e7e50847" category="list-text">볼륨을 선택한 다음 * 삭제 * 를 클릭합니다.</block>
+  <block id="a87e9e2d6f69725c3669d99fad70371d" category="list-text">확인하려면 * 삭제 * 를 다시 클릭합니다.</block>
+  <block id="5b049ba81786d3cb662b3737cb8dbf9d" category="summary">NetApp Cloud Volumes Service for Google Cloud를 사용하면 멀티프로토콜 워크로드를 빠르게 추가할 뿐만 아니라 Windows 기반 및 UNIX 기반 앱을 모두 구축하여 배포할 수 있습니다.</block>
+  <block id="e946962d2bea46b9a982a912efacd934" category="doc">Google Cloud용 Cloud Volumes Service에 대해 자세히 알아보십시오</block>
+  <block id="be01a357ae2c9752875b5385c732b017" category="section-title">주요 기능</block>
+  <block id="23b980511a5ced3b4103908bdb170f43" category="list-text">온프레미스 및 Google Cloud 간에 데이터 마이그레이션</block>
+  <block id="97672826879203835fb8d5d5635b629f" category="list-text">몇 초 만에 볼륨을 1TiB에서 100TiB로 프로비저닝</block>
+  <block id="684d4a33eb829a2bc82fd1070b5a3d1e" category="list-text">멀티 프로토콜 지원(NFS 또는 SMB 볼륨을 생성할 수 있음)</block>
+  <block id="7ae2f6cdaa02d5b8678d14f3f489a073" category="list-text">자동화되고 효율적인 스냅샷으로 데이터 보호</block>
+  <block id="17872268d34a8da9354d5922e34fce78" category="list-text">신속한 클론 복제로 애플리케이션 개발 시간 단축</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
+  <block id="251d0a3ac74b0cb370e4a290d007e109" category="paragraph">Cloud Volumes Service for Google Cloud에서 생성한 볼륨은 Cloud Manager를 통해 청구되지 않고 서비스에 대한 구독으로 청구됩니다.</block>
+  <block id="f200eca2e2bf55c13ad2668dfdc87204" category="paragraph">Cloud Manager에서 Google Cloud용 Cloud Volumes Service 지역 또는 볼륨을 검색하는 데 비용이 부과되지 않습니다.</block>
+  <block id="bf3796a4651f53d9a137d45e05610b30" category="inline-link-macro">Google Cloud Marketplace에서 가격을 확인할 수 있습니다</block>
+  <block id="8e1046c4123260638fe451866f95441f" category="paragraph"><block ref="8e1046c4123260638fe451866f95441f" category="inline-link-macro-rx"></block></block>
+  <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">지원 지역</block>
+  <block id="b781da83c6614728483efd98a6c45ff6" category="inline-link-macro">지원되는 Google Cloud 지역을 봅니다</block>
+  <block id="289503068ec55e9bb2927b20b2944861" category="paragraph"><block ref="289503068ec55e9bb2927b20b2944861" category="inline-link-macro-rx"></block></block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="section-title">시작하기 전에</block>
+  <block id="ba1ec04f6bf2ff4dcb3909ab4182292d" category="inline-link">NetApp Cloud Volumes Service for Google Cloud 설명서</block>
+  <block id="3e3b8b12f3052c6c4f7e3e489f336477" category="paragraph">Cloud Manager는 기존 Cloud Volumes Service for GCP 구독 및 볼륨을 검색할 수 있습니다. 를 참조하십시오<block ref="8cef80fbd20b45fcd51e638492e90799" category="inline-link-rx"></block> 구독을 아직 설정하지 않은 경우</block>
+  <block id="20c404f3ca0633629eee9b1b4ccd6737" category="section-title">도움말 보기</block>
+  <block id="44812774d63355a78e8078a40c0b3218" category="paragraph">Cloud Manager 채팅을 사용하여 Cloud Volumes Service 작업에 대한 일반적인 질문을 Cloud Manager에서 할 수 있습니다.</block>
+  <block id="10f5b4e8583801dbea2ede6fbb4e4ae4" category="paragraph">Google Cloud용 Cloud Volumes Service에 대한 일반적인 질문은 gcinfo@netapp.com 으로 NetApp의 Google Cloud 팀에 이메일을 보내주십시오.</block>
+  <block id="bd32907910f13f745e4c4ad31b8b85f3" category="inline-link-macro">지원을 받는 중입니다</block>
+  <block id="8ce70b43ef3817ffad1e3c9c2e6eb7fe" category="paragraph">클라우드 볼륨과 관련된 기술 문제의 경우 Google Cloud Console에서 기술 지원 케이스를 생성할 수 있습니다. 을 참조하십시오 <block ref="1229b64310846c261ec2fb9cb0c3c4af" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="section-title">관련 링크</block>
+  <block id="8f27ddb27510b2f60749b9cc933bb52c" category="inline-link">NetApp Cloud Central: Google Cloud용 Cloud Volumes Service</block>
+  <block id="b3a639154f19df26c3f5d0646c183067" category="list-text"><block ref="b3a639154f19df26c3f5d0646c183067" category="inline-link-rx"></block></block>
+  <block id="4025377504ab93e000f14fb259cf7ed8" category="list-text"><block ref="4025377504ab93e000f14fb259cf7ed8" category="inline-link-rx"></block></block>
+  <block id="547aa8c8440b20c20efd24ce745a278e" category="summary">Cloud Volumes Service for Google Cloud의 Cloud Manager의 새로운 기능에 대해 알아보십시오.</block>
+  <block id="490414e0366b091220802d406e52c076" category="doc">새로운 기능</block>
+  <block id="a7c7ddf55dc49cf2e6226c52c30d52c2" category="section-title">2020년 9월 9일</block>
+  <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">Cloud Volumes Service for Google Cloud 지원</block>
+  <block id="9e376b2341c224a05e31bf464f6a9a2c" category="paragraph">이제 Cloud Manager에서 Cloud Volumes Service for Google Cloud를 직접 관리할 수 있습니다.</block>
+  <block id="69a622f3bb660c4a470d3d96f19e20be" category="list-text">작업 환경 설정 및 생성</block>
+  <block id="bd596d5c57d76a146d26208cd81913fb" category="list-text">Linux 및 UNIX 클라이언트용 NFSv3 및 NFSv4.1 볼륨을 생성하고 관리합니다</block>
+  <block id="104e3ba4c577e4723ae2db3aaab91044" category="list-text">Windows 클라이언트용 SMB 3.x 볼륨을 생성하고 관리합니다</block>
+  <block id="f3f6d908876888ed386cf496a0f26e7c" category="list-text">볼륨 스냅숏을 생성, 삭제 및 복원합니다</block>
+  <block id="1110fd6ec9eee21c0b646be4552ca0e0" category="summary">Cloud Manager를 사용하면 Cloud Volumes Service for Google Cloud 구독에 따라 클라우드 볼륨을 생성할 수 있습니다. 볼륨을 생성한 후 볼륨을 클라이언트에 마운트할 수 있도록 관련 마운트 명령을 가져옵니다.</block>
+  <block id="9be5a2eae9bab39aee7d0161c137cd43" category="doc">볼륨을 생성 및 마운트합니다</block>
+  <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">볼륨 생성</block>
+  <block id="0083dcd597da7bd592240dc28b767d85" category="paragraph">NFS 또는 SMB 볼륨을 새로운 계정 또는 기존 Cloud Volumes Service for Google Cloud 계정으로 생성할 수 있습니다. 클라우드 볼륨은 현재 Linux 및 UNIX 클라이언트용 NFSv3 및 NFSv4.1과 Windows 클라이언트용 SMB 3.x를 지원합니다.</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">시작하기 전에</block>
+  <block id="ce18c1db074bb9e5c1d0abfee30e098f" category="list-text">GCP에서 SMB를 사용하려면 DNS 및 Active Directory를 설정해야 합니다.</block>
+  <block id="f153caba90fc4134024f9b4c3eeadea8" category="list-text">SMB 볼륨을 생성할 계획이라면 연결할 수 있는 Windows Active Directory 서버가 있어야 합니다. 볼륨을 생성할 때 이 정보를 입력합니다. 또한 관리자 사용자가 지정된 OU(조직 단위) 경로에 컴퓨터 계정을 만들 수 있는지 확인합니다.</block>
+  <block id="3a9d2e9f2ef6e95de617c14d2e4a4ef4" category="list-text">작업 환경을 선택하고 * 새 볼륨 추가 * 를 클릭합니다.</block>
+  <block id="a88cc7492eb95c6a27a508257cb9c7d3" category="list-text">세부 정보 및 위치 페이지에서 볼륨에 대한 세부 정보를 입력합니다.</block>
+  <block id="0dcbdc7a88267f1af3dfbb016b0e988b" category="list-text">볼륨의 이름을 입력합니다.</block>
+  <block id="0aa26752c8275d7c2136cfa844d9bed7" category="list-text">1TiB(1024GiB)에서 100TiB 사이의 크기를 지정합니다.</block>
+  <block id="18f39858c9507476f461154189c305ce" category="inline-link-macro">할당된 용량에 대해 자세히 알아보십시오</block>
+  <block id="8499bf1a4d0783e1946d0183d50b1a5e" category="paragraph"><block ref="1fccff2dc87880e023e422db2a91ac16" category="inline-link-macro-rx"></block>.</block>
+  <block id="d5d2b1f89ce09d0f5810f56209020adc" category="list-text">Standard, Premium 또는 Extreme 서비스 레벨을 지정합니다.</block>
+  <block id="4de85cc4f312ff19184ba3b85367874c" category="inline-link-macro">서비스 수준에 대해 자세히 알아보십시오</block>
+  <block id="06caf620f227e374f23ebcbd61a320c1" category="paragraph"><block ref="4a30f1eccd0eaf46b75e9787d1a9dd0e" category="inline-link-macro-rx"></block>.</block>
+  <block id="b120226bff5ab9d91c0335fcef4d25a9" category="list-text">Google Cloud 영역을 선택합니다.</block>
+  <block id="0ad33c22b0bf62f904c40c679ed4bb71" category="list-text">볼륨에 액세스할 수 있는 VPC 네트워크를 선택합니다. 볼륨을 생성한 후에는 VPC를 변경하거나 편집할 수 없습니다.</block>
+  <block id="26983a904e0717c520032a2178795368" category="list-text">계속 * 을 클릭합니다.</block>
+  <block id="e779fbfdff90085c8a49c2e711c97ce8" category="inline-image-macro">이름, 크기 및 서비스 수준을 제공하는 볼륨 세부 정보 페이지의 스크린 샷</block>
+  <block id="a7bcef8a07fad7a86f89afe7cb9eec70" category="paragraph"><block ref="a7bcef8a07fad7a86f89afe7cb9eec70" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0625bfce4701fe75801416f87ede7b10" category="list-text">프로토콜 페이지에서 NFS 또는 SMB 를 선택한 다음 세부 정보를 정의합니다. NFS 및 SMB에 필요한 항목은 아래 별도의 섹션에 나와 있습니다.</block>
+  <block id="547a5c5cf72eabae707b477139de2cdd" category="list-text">NFS의 경우:</block>
+  <block id="d21a4fe6a8f6a1dfa8736389d4c3476d" category="list-text">볼륨 경로 필드에서 볼륨을 마운트할 때 표시할 볼륨 내보내기의 이름을 지정합니다.</block>
+  <block id="25f87b20d982949ec8e3e27d03474ba6" category="list-text">귀사의 요구사항에 따라 NFSv3, NFSv4.1 또는 둘 다를 선택하십시오.</block>
+  <block id="971b53e8e70edb4bd2dc46c1e9a5f83b" category="list-text">선택적으로, 볼륨에 액세스할 수 있는 클라이언트를 식별하기 위해 엑스포트 정책을 생성할 수 있습니다. 다음을 지정합니다.</block>
+  <block id="264754e31d1ff52cdc5aaf133afec15f" category="list-text">IP 주소 또는 CIDR(Classless Inter-Domain Routing)을 사용하여 허용된 클라이언트</block>
+  <block id="afbfc1582fb1f428d3810c815dfcc309" category="list-text">읽기 및 쓰기 또는 읽기 전용으로 액세스 권한.</block>
+  <block id="4ab55a4fa374ed23333000e2528f27ae" category="list-text">사용자에게 사용되는 액세스 프로토콜(또는 볼륨에서 NFSv3과 NFSv4.1 액세스가 모두 허용되는 경우 프로토콜)입니다.</block>
+  <block id="c2e80b269feea5b55611a060d02af36b" category="list-text">추가 엑스포트 정책 규칙을 정의하려면 * + 내보내기 정책 규칙 추가 * 를 클릭합니다.</block>
+  <block id="7f705955c40fe9715fd0b0beafc53e4d" category="paragraph">다음 이미지는 NFS 프로토콜에 대해 작성된 볼륨 페이지를 보여줍니다.</block>
+  <block id="7d060f160067a6298515896b28afec14" category="inline-image-macro">NFS Cloud Volumes Service 볼륨에 대해 작성된 볼륨 페이지를 보여 주는 스크린샷</block>
+  <block id="872560fbd3d800dab72db585b9f3c935" category="paragraph"><block ref="872560fbd3d800dab72db585b9f3c935" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9558b14c9d59086685b161678bbd5ba3" category="list-text">SMB의 경우:</block>
+  <block id="f3ef9426887f3b6d3605f31188680f8d" category="list-text">볼륨 경로 필드에서 볼륨을 마운트할 때 표시할 볼륨 내보내기의 이름을 지정하고 * 계속 * 을 클릭합니다.</block>
+  <block id="cd151d721b267c3372dae8aa90bea7b0" category="list-text">Active Directory가 설정된 경우 구성이 표시됩니다. 설정 중인 첫 번째 볼륨이고 Active Directory가 설정되지 않은 경우 SMB 연결 설정 페이지에서 SMB 세션 암호화를 설정할 수 있습니다.</block>
+  <block id="6f16a5f8ff5d75ab84c018adacdfcbb7" category="cell">필드에 입력합니다</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">설명</block>
+  <block id="9d35762d6cb446294ba4226fba0d1eb5" category="cell">DNS 기본 IP 주소입니다</block>
+  <block id="af76d053440af0abdccb0ad361f41e55" category="cell">SMB 서버의 이름 확인을 제공하는 DNS 서버의 IP 주소입니다. 여러 서버를 참조할 때 쉼표를 사용하여 IP 주소를 구분합니다(예: 172.31.25.223, 172.31.2.74).</block>
+  <block id="b4a5aaff47ac1aad0a039f0089aac0c6" category="cell">연결할 Active Directory 도메인입니다</block>
+  <block id="c6d55f531a77e880997000897f943785" category="cell">SMB 서버를 연결할 AD(Active Directory) 도메인의 FQDN입니다.</block>
+  <block id="bb78cf486f48b949ec20d57c3b4b3570" category="cell">SMB 서버 NetBIOS 이름입니다</block>
+  <block id="5edfee54ded2748effdab7c474ec6077" category="cell">생성할 SMB 서버의 NetBIOS 이름입니다.</block>
+  <block id="a3bbc956ff81e28dd77efaaf4d1c5b30" category="cell">도메인에 가입하도록 승인된 자격 증명입니다</block>
+  <block id="03fa572f48ef7f33b022f609e0553e85" category="cell">AD 도메인 내의 지정된 OU(조직 구성 단위)에 컴퓨터를 추가할 수 있는 충분한 권한이 있는 Windows 계정의 이름 및 암호입니다.</block>
+  <block id="ff309cf3107765153856990e03224d8c" category="cell">조직 구성 단위</block>
+  <block id="88f4674929f3577e4ed6ca0ce26d6c95" category="cell">SMB 서버와 연결할 AD 도메인 내의 조직 단위입니다. 기본값은 CN=사용자 고유의 Windows Active Directory 서버에 연결하는 컴퓨터입니다.</block>
+  <block id="03e6e06b082c189fc87ad9aad3901032" category="paragraph">다음 이미지는 SMB 프로토콜에 대해 작성된 볼륨 페이지를 보여줍니다.</block>
+  <block id="a69750d79ae32373cb26af4d76eee484" category="inline-image-macro">SMB Cloud Volumes Service 볼륨에 대해 작성된 볼륨 페이지를 보여 주는 스크린샷</block>
+  <block id="396a17f0ed51b9c5c6e2c2d382b9da29" category="paragraph"><block ref="396a17f0ed51b9c5c6e2c2d382b9da29" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="14ec8544f74cfa351aff62abf80e7ce1" category="list-text">기존 볼륨의 스냅샷을 기반으로 볼륨을 생성하려면 Snapshot Name(스냅샷 이름) 드롭다운 목록에서 스냅샷을 선택합니다. 그렇지 않으면 * 계속 * 을 클릭합니다.</block>
+  <block id="a09c1495afba572d0857c83823cd2bad" category="list-text">스냅샷 정책 페이지에서 Cloud Volumes Service를 활성화하여 일정에 따라 볼륨의 스냅샷 복사본을 생성할 수 있습니다. 이렇게 하려면 선택기를 오른쪽으로 이동하거나 나중에 볼륨을 편집하여 스냅샷 정책을 정의할 수 있습니다.</block>
+  <block id="ba33208e705836c12b7e1e6e2fa6b492" category="inline-link-macro">스냅샷 정책을 생성하는 중입니다</block>
+  <block id="7235c4b075858250025ea5e2846d9c56" category="paragraph">을 참조하십시오 <block ref="bb3b670ab2c393f994b7ce337a4620ef" category="inline-link-macro-rx"></block> 스냅샷 기능에 대한 자세한 내용은 를 참조하십시오.</block>
+  <block id="5e65e2e51d0d291499a42f54730e645c" category="list-text">볼륨 추가 * 를 클릭합니다.</block>
+  <block id="45dbe3c136df615d693b80183c277a3b" category="paragraph">새 볼륨이 작업 환경에 추가됩니다.</block>
+  <block id="a619b30d8586f1269f45bac77eca7781" category="paragraph">를 계속 진행합니다 <block ref="c1cfc9c0a0127f96cabac57cf381c0f1" category="inline-link-macro-rx"></block>.</block>
+  <block id="45bb1e3eab26b4479c1c1d8bdd6bf2f5" category="section-title">클라우드 볼륨을 마운트합니다</block>
+  <block id="86a3efaabfd178d684bcd98f4cd6434c" category="paragraph">Cloud Manager 내에서 마운트 지침에 액세스하여 볼륨을 호스트에 마운트할 수 있습니다.</block>
+  <block id="b80e741400898b02fa02ae6451578a24" category="admonition">클라이언트에서 지원하는 강조 표시된 프로토콜/언어를 사용합니다.</block>
+  <block id="231483c3df5be28012c03a70cd182671" category="list-text">볼륨 위로 마우스를 이동하고 * 볼륨 마운트 * 를 클릭합니다.</block>
+  <block id="dc994023cf3cc855f2ced6fe0993f129" category="paragraph">NFS 및 SMB 볼륨은 해당 프로토콜의 마운트 지침을 표시합니다.</block>
+  <block id="ca9ddaf06b48350fa016d22a546b3160" category="list-text">명령 위로 마우스를 가져가 클립보드에 복사하여 이 프로세스를 보다 쉽게 수행할 수 있습니다. 명령 끝에 대상 디렉토리/마운트 지점을 추가하기만 하면 됩니다.</block>
+  <block id="f8b7bb7f28d1f1a0e9534f8d8582d615" category="paragraph">* NFS 예: *</block>
+  <block id="b814517054080fc81ee838a94a37bc18" category="inline-image-macro">NFS 볼륨에 대한 마운트 지침입니다</block>
+  <block id="5c81aee2de731ff9fc139e1be671e308" category="paragraph"><block ref="5c81aee2de731ff9fc139e1be671e308" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb3bef40f931522adf1b31bfb5ba4e1b" category="paragraph">'rsize' 및 'wsize' 옵션에 의해 정의된 최대 I/O 크기는 1048576이지만 대부분의 사용 사례에서 65536이 권장되는 기본값입니다.</block>
+  <block id="14207f0f4970c30af3f3b09bc26475c1" category="paragraph">RS=&lt;NFS_VERSION&gt;' 옵션으로 버전을 지정하지 않으면 Linux 클라이언트는 기본적으로 NFSv4.1로 설정됩니다.</block>
+  <block id="c33a261ec68784a847d41ccecc103bc1" category="paragraph">* SMB 예: *</block>
+  <block id="dd92d715112689203a9d21e0c4638b23" category="inline-image-macro">SMB 볼륨에 대한 마운트 지침</block>
+  <block id="d837d9033dcef75be4b4e49cdbf1cd31" category="paragraph"><block ref="d837d9033dcef75be4b4e49cdbf1cd31" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d2db85ec3f1d935da0d928bd1abc4623" category="list-text">인스턴스에 대한 마운트 지침에 따라 네트워크 드라이브를 매핑합니다.</block>
+  <block id="8368ae9308b995fd5a75721d106d4ab0" category="paragraph">마운트 지침의 단계를 완료한 후 클라우드 볼륨을 GCP 인스턴스에 마운트했습니다.</block>
+  <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">NetApp은 다양한 방법으로 Cloud Manager를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
+  <block id="7ccaf84febc0ed633fbdbadb8d488a7e" category="paragraph"><block ref="7ccaf84febc0ed633fbdbadb8d488a7e" category="inline-link-macro-rx"></block></block>
+  <block id="8f6f9937d2a2acb76e352fb5e9dfff19" category="summary">Cloud Volumes Service for Google Cloud 구독과 Cloud Manager에서 모든 기존 볼륨을 제거할 수 있습니다. 볼륨은 삭제되지 않으며 Cloud Manager 인터페이스에서 방금 제거됩니다.</block>
+  <block id="ea4e50481c541cefaed626458af5901f" category="doc">Cloud Manager에서 Cloud Volumes Service를 제거합니다</block>
+  <block id="b2639f031018ddb46e5517acac1b12ef" category="admonition">Cloud Manager에서 Google Cloud용 Cloud Volumes Service 구독을 삭제할 수 없습니다. Google Cloud Console을 통해서만 이 작업을 수행할 수 있습니다.</block>
+  <block id="c723db2b353490931b5febeb5b3ec637" category="list-text">를 클릭합니다 <block ref="a5c9b85c9e509567688aed8106bc419c" category="inline-image-macro-rx" type="image"></block> 단추를 클릭하고 &lt;Cloud Volumes Service 제거&gt;*를 클릭합니다.</block>
+  <block id="d6781b097f0c80fef5a0f286b314592a" category="list-text">확인 대화 상자에서 * 제거 * 를 클릭합니다.</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
+  <block id="c59ae8d7beeb519a23478ab048af482c" category="paragraph"><block ref="c59ae8d7beeb519a23478ab048af482c" category="inline-link-macro-rx"></block></block>
+  <block id="6f2ac1cf1da8ec34232c651d4bba0149" category="paragraph"><block ref="6f2ac1cf1da8ec34232c651d4bba0149" category="inline-link-macro-rx"></block></block>
+  <block id="4940124e8487cb4ea36f1511a195cf66" category="inline-link-macro">Cloud Manager 3.9에 대한 고지 사항</block>
+  <block id="c069fcc68c5dfa73ccc99924c836cae9" category="paragraph"><block ref="c069fcc68c5dfa73ccc99924c836cae9" category="inline-link-macro-rx"></block></block>
+  <block id="a1e613d4b9053de36bf30c8396728155" category="summary">Cloud Manager에서 Cloud Volumes Service for Google Cloud 작업 환경을 생성하여 볼륨 및 스냅샷을 생성하고 관리합니다.</block>
+  <block id="5747722bb189495cdccebf12276e2ffd" category="doc">Google Cloud용 Cloud Volumes Service 작업 환경을 만듭니다</block>
+  <block id="871267ec860c59e6022484041d4d960e" category="paragraph">Cloud Manager에서 Cloud Volumes Service for Google Cloud 작업 환경을 생성하여 볼륨 및 스냅샷을 생성하고 관리할 수 있습니다.</block>
+  <block id="4dd9c591139d8d343bfac0ba8317d5ab" category="paragraph">Google Cloud Console에서 이미 볼륨을 생성했는지, 아니면 Cloud Volumes Service for Google Cloud에 등록만 했고 아직 볼륨이 없는 지와 관계없이, 첫 번째 단계는 GCP 구독에 따라 볼륨의 작업 환경을 생성하는 것입니다.</block>
+  <block id="e3c3a0b2e9bccb0ed0678e6d2b6e5101" category="paragraph">이 구독에 대한 클라우드 볼륨이 이미 있는 경우 새 작업 환경에 볼륨이 표시됩니다. 아직 GCP 구독에 대한 클라우드 볼륨을 추가하지 않은 경우 새로운 작업 환경을 생성한 후에 이를 수행할 수 있습니다.</block>
+  <block id="b7c67692dc38dca98edc62b4b29f83d8" category="admonition">여러 Google Cloud 프로젝트에 구독과 볼륨이 있는 경우 각 프로젝트에 대해 이 작업을 수행해야 합니다.</block>
+  <block id="107a414e0bf62dc36bb6bbde7bcd19de" category="paragraph">각 프로젝트에 대한 구독을 추가할 때 다음 정보를 사용할 수 있어야 합니다.</block>
+  <block id="61d55eb42b926e824d916fc29d4b2127" category="list-text">서비스 계정 자격 증명(다운로드한 JSON 개인 키)</block>
+  <block id="7adea0d9c77aabccd8bb67ae0a832d59" category="list-text">프로젝트 이름</block>
+  <block id="8160c66171203c7c10750b51088251a8" category="list-text">Cloud Manager에서 새 작업 환경을 추가하고 * Google Cloud * 위치를 선택한 다음 * 계속 * 을 클릭합니다.</block>
+  <block id="5437257338a1645396ca701fba74ee19" category="list-text">Cloud Volumes Service * 를 선택하고 * 계속 * 을 클릭합니다.</block>
+  <block id="68aa8fd14019bf80c98f197ea78d6acc" category="inline-image-macro">Cloud Volumes Service for GCP 구독에 대한 작업 환경을 추가하는 스크린샷</block>
+  <block id="e407814ff6ab4fb1b63ad38464f53b73" category="paragraph"><block ref="e407814ff6ab4fb1b63ad38464f53b73" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9080d954a7c1febdfca0a4458cd577b0" category="list-text">Cloud Volumes Service 구독에 대한 정보를 제공합니다.</block>
+  <block id="5a341ba1dd9ba8680efd382c4f5778ad" category="list-text">사용할 작업 환경 이름을 입력합니다.</block>
+  <block id="56bab707c78784ba9b87a1e53b01fb02" category="list-text">이전 단계에서 다운로드한 JSON 개인 키를 복사/붙여넣으십시오.</block>
+  <block id="98061d4b41ea7e9a2f4ca7bbd84f29b8" category="list-text">Google Cloud 프로젝트의 이름을 선택합니다.</block>
+  <block id="756fe8c276796e025f6186df6fad79f9" category="inline-image-macro">Cloud Volumes Service for GCP 구독에 대한 자격 증명을 추가하는 스크린샷</block>
+  <block id="9abb056391b209b3886860757a68afa6" category="paragraph"><block ref="9abb056391b209b3886860757a68afa6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d1536678830c26f77ea3d432c63adbd6" category="paragraph">Cloud Manager는 Google Cloud용 Cloud Volumes Service 작업 환경을 표시합니다.</block>
+  <block id="9940ae9ac5b6e6e70ab66bca7f76d51f" category="inline-image-macro">Google Cloud 작업 환경을 위한 Cloud Volumes Service 스크린샷</block>
+  <block id="9e4d57614250697869bda0f9844b2597" category="paragraph"><block ref="9e4d57614250697869bda0f9844b2597" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1a9e28288f987d2aa7cac4c83ef241dd" category="paragraph">이 구독에 대한 클라우드 볼륨이 이미 있는 경우 새 작업 환경에 볼륨이 표시됩니다. Cloud Manager에서 클라우드 볼륨을 더 추가할 수 있습니다.</block>
+  <block id="a1f2a018efc72b6fcf1f805684b3c31a" category="paragraph">이 구독에 대한 클라우드 볼륨이 없는 경우 지금 생성하십시오.</block>
+  <block id="3d0356467ac23a5028ee4d6562d2ec45" category="inline-link-macro">볼륨 생성을 시작합니다</block>
+  <block id="0ddd57362a29de92618e7d7d2bbf5cd4" category="paragraph"><block ref="8d370122f83467764fea492e485dddbb" category="inline-link-macro-rx"></block>.</block>
+  <block id="98d397091057eb9a16b0fe981b3ad815" category="summary">NetApp Cloud Volumes Service for Google Cloud는 엔터프라이즈 워크로드를 클라우드에서 마이그레이션 및 실행하는 데 필요한 성능, 가용성 및 보안을 제공하는 고급 데이터 관리 기능을 갖춘 통합 파일 서비스입니다. 다음 문서는 NetApp Cloud Manager를 사용하여 Google Cloud용 Cloud Volumes Service를 관리하는 방법에 대해 설명합니다.</block>
+  <block id="c164c685163f0ac5277f4c117b8c9c2c" category="doc">Google Cloud용 Cloud Volumes Service 문서</block>
+  <block id="07412ee3cf29f80fadf8fe52f687e709" category="summary">DNS 서버 또는 Active Directory 도메인을 변경한 경우 Cloud Volumes Service에서 SMB 서버를 수정하여 클라이언트에 계속 스토리지를 제공할 수 있도록 해야 합니다.</block>
+  <block id="cfc8683315c11129a14f7b806a6f699c" category="doc">Active Directory 구성을 관리합니다</block>
+  <block id="69911db82cd6ce5dc7c63d1b33420f3b" category="list-text">를 클릭합니다 <block ref="a5c9b85c9e509567688aed8106bc419c" category="inline-image-macro-rx" type="image"></block> 버튼을 클릭하고 * Active Directory 관리 * 를 클릭합니다.</block>
+  <block id="6009cb4ef9aecc48bb7af9c3b4fb92ad" category="paragraph">Active Directory가 구성되어 있지 않은 경우 지금 추가할 수 있습니다. 설정이 구성되어 있으면 를 사용하여 설정을 수정하거나 삭제할 수 있습니다 <block ref="a5c9b85c9e509567688aed8106bc419c" category="inline-image-macro-rx" type="image"></block> 단추를 클릭합니다.</block>
+  <block id="fd1f3b127eeb96862e4cde53a7ee6267" category="list-text">SMB 서버에 대한 설정을 지정합니다.</block>
+  <block id="c1ca298a9a9c76ca22ecf23ccaca6448" category="cell">SMB 서버의 이름 확인을 제공하는 DNS 서버의 IP 주소입니다. 여러 서버를 참조할 때 쉼표를 사용하여 IP 주소를 구분합니다(예: 172.31.25.223, 172.31.2.74).</block>
+  <block id="4bc62575e91aa40d329c1383c7a4fc46" category="list-text">설정을 저장하려면 * 저장 * 을 클릭합니다.</block>
+  <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">NetApp 기술 지원으로 지원 케이스를 생성하기 전에 NetApp Support 사이트 계정을 Cloud Manager에 추가한 다음 지원을 위해 등록해야 합니다.</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">지원을 위해 등록하십시오</block>
+  <block id="d53e2559d6ace0e907fc57192bf286b6" category="paragraph"><block ref="d53e2559d6ace0e907fc57192bf286b6" category="inline-link-macro-rx"></block></block>
+  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">모든 Cloud Manager 설명서</block>
+  <block id="bf5d97d0f930d16c4814a56d0ffddf42" category="sidebar">Google Cloud용 Cloud Volumes Service 문서</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
+  <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">빠른 시작</block>
+  <block id="edbcf53081d21cc9d84e0c1b1c31c425" category="sidebar">작업 환경을 만듭니다</block>
+  <block id="281fd4ddeb5136e8243177da6481be31" category="sidebar">Cloud Volumes Service for Google Cloud를 사용합니다</block>
+  <block id="97303bb797c628e0c8d96db52408999b" category="sidebar">Cloud Volumes Service를 제거합니다</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식 및 지원</block>
+  <block id="82b59bce9fad57d86901f928d5fef6d3" category="sidebar">클라우드 스냅샷 관리</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">블로그 커뮤니티</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
+  <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central 블로그</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
+</blocks>
