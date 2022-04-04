@@ -54,11 +54,11 @@ homepage:
       url: concept-cvs-gcp.html
     - title: 빠른 시작
       url: task-quick-start.html
-  - title: Cloud Volumes Service for Google Cloud를 사용합니다
+  - title: Cloud Volumes Service를 사용합니다
     links:
     - title: 볼륨 생성
       url: task-create-volumes.html
-    - title: 클라우드 스냅샷 관리
+    - title: 클라우드 볼륨 스냅샷을 관리합니다
       url: task-manage-snapshots.html
   - title: 블로그 커뮤니티
     links:
