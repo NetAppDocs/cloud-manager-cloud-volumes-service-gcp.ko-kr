@@ -154,7 +154,6 @@
   <block id="4025377504ab93e000f14fb259cf7ed8" category="list-text"><block ref="4025377504ab93e000f14fb259cf7ed8" category="inline-link-rx"></block></block>
   <block id="547aa8c8440b20c20efd24ce745a278e" category="summary">Cloud Volumes Service for Google Cloud의 Cloud Manager의 새로운 기능에 대해 알아보십시오.</block>
   <block id="490414e0366b091220802d406e52c076" category="doc">새로운 기능</block>
-  <block id="a7c7ddf55dc49cf2e6226c52c30d52c2" category="section-title">2020년 9월 9일</block>
   <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">Cloud Volumes Service for Google Cloud 지원</block>
   <block id="9e376b2341c224a05e31bf464f6a9a2c" category="paragraph">이제 Cloud Manager에서 Cloud Volumes Service for Google Cloud를 직접 관리할 수 있습니다.</block>
   <block id="69a622f3bb660c4a470d3d96f19e20be" category="list-text">작업 환경 설정 및 생성</block>
@@ -300,4 +299,5 @@
   <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central 블로그</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="b2926ec1332a3412430ef48cae1f9bc2" category="sidebar">Cloud Volumes Service를 사용합니다</block>
+  <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">2020년 9월 9일</block>
 </blocks>
