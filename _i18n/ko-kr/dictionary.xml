@@ -139,7 +139,6 @@
   <block id="8e1046c4123260638fe451866f95441f" category="paragraph"><block ref="8e1046c4123260638fe451866f95441f" category="inline-link-macro-rx"></block></block>
   <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">지원 지역</block>
   <block id="b781da83c6614728483efd98a6c45ff6" category="inline-link-macro">지원되는 Google Cloud 지역을 봅니다</block>
-  <block id="289503068ec55e9bb2927b20b2944861" category="paragraph"><block ref="289503068ec55e9bb2927b20b2944861" category="inline-link-macro-rx"></block></block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="section-title">시작하기 전에</block>
   <block id="ba1ec04f6bf2ff4dcb3909ab4182292d" category="inline-link">NetApp Cloud Volumes Service for Google Cloud 설명서</block>
   <block id="3e3b8b12f3052c6c4f7e3e489f336477" category="paragraph">Cloud Manager는 기존 Cloud Volumes Service for GCP 구독 및 볼륨을 검색할 수 있습니다. 를 참조하십시오<block ref="8cef80fbd20b45fcd51e638492e90799" category="inline-link-rx"></block> 구독을 아직 설정하지 않은 경우</block>
@@ -213,11 +212,8 @@
   <block id="396a17f0ed51b9c5c6e2c2d382b9da29" category="paragraph"><block ref="396a17f0ed51b9c5c6e2c2d382b9da29" category="inline-image-macro-rx" type="image"></block></block>
   <block id="14ec8544f74cfa351aff62abf80e7ce1" category="list-text">기존 볼륨의 스냅샷을 기반으로 볼륨을 생성하려면 Snapshot Name(스냅샷 이름) 드롭다운 목록에서 스냅샷을 선택합니다. 그렇지 않으면 * 계속 * 을 클릭합니다.</block>
   <block id="a09c1495afba572d0857c83823cd2bad" category="list-text">스냅샷 정책 페이지에서 Cloud Volumes Service를 활성화하여 일정에 따라 볼륨의 스냅샷 복사본을 생성할 수 있습니다. 이렇게 하려면 선택기를 오른쪽으로 이동하거나 나중에 볼륨을 편집하여 스냅샷 정책을 정의할 수 있습니다.</block>
-  <block id="ba33208e705836c12b7e1e6e2fa6b492" category="inline-link-macro">스냅샷 정책을 생성하는 중입니다</block>
-  <block id="7235c4b075858250025ea5e2846d9c56" category="paragraph">을 참조하십시오 <block ref="bb3b670ab2c393f994b7ce337a4620ef" category="inline-link-macro-rx"></block> 스냅샷 기능에 대한 자세한 내용은 를 참조하십시오.</block>
   <block id="5e65e2e51d0d291499a42f54730e645c" category="list-text">볼륨 추가 * 를 클릭합니다.</block>
   <block id="45dbe3c136df615d693b80183c277a3b" category="paragraph">새 볼륨이 작업 환경에 추가됩니다.</block>
-  <block id="a619b30d8586f1269f45bac77eca7781" category="paragraph">를 계속 진행합니다 <block ref="c1cfc9c0a0127f96cabac57cf381c0f1" category="inline-link-macro-rx"></block>.</block>
   <block id="45bb1e3eab26b4479c1c1d8bdd6bf2f5" category="section-title">클라우드 볼륨을 마운트합니다</block>
   <block id="86a3efaabfd178d684bcd98f4cd6434c" category="paragraph">Cloud Manager 내에서 마운트 지침에 액세스하여 볼륨을 호스트에 마운트할 수 있습니다.</block>
   <block id="b80e741400898b02fa02ae6451578a24" category="admonition">클라이언트에서 지원하는 강조 표시된 프로토콜/언어를 사용합니다.</block>
@@ -300,4 +296,8 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="b2926ec1332a3412430ef48cae1f9bc2" category="sidebar">Cloud Volumes Service를 사용합니다</block>
   <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">2020년 9월 9일</block>
+  <block id="939e2552f14c2db1e32edf892141ef1f" category="paragraph"><block ref="939e2552f14c2db1e32edf892141ef1f" category="inline-link-rx"></block></block>
+  <block id="ced63c567878ed01730fce043c8ade96" category="inline-link-macro">스냅샷 정책을 생성합니다</block>
+  <block id="e45bbeae66bd2af06ef994ec4e9682b9" category="paragraph">자세한 내용을 알아보십시오 <block ref="4733085e77073b15a79afc35f8d9b896" category="inline-link-macro-rx"></block>.</block>
+  <block id="0753d577f87c3ce7385e295a5cc23407" category="paragraph">클라우드 볼륨을 계속 마운트합니다.</block>
 </blocks>

@@ -104,14 +104,14 @@ image:screenshot_cvs_smb_details.png["SMB Cloud Volumes Service 볼륨에 대해
 . 기존 볼륨의 스냅샷을 기반으로 볼륨을 생성하려면 Snapshot Name(스냅샷 이름) 드롭다운 목록에서 스냅샷을 선택합니다. 그렇지 않으면 * 계속 * 을 클릭합니다.
 . 스냅샷 정책 페이지에서 Cloud Volumes Service를 활성화하여 일정에 따라 볼륨의 스냅샷 복사본을 생성할 수 있습니다. 이렇게 하려면 선택기를 오른쪽으로 이동하거나 나중에 볼륨을 편집하여 스냅샷 정책을 정의할 수 있습니다.
 +
-을 참조하십시오 link:task-manage-cloud-volumes-gcp-snapshots.html#create_or_modify_a_snapshot_policy["스냅샷 정책을 생성하는 중입니다"^] 스냅샷 기능에 대한 자세한 내용은 를 참조하십시오.
+자세한 내용을 알아보십시오 link:task-manage-snapshots.html["스냅샷 정책을 생성합니다"].
 
 . 볼륨 추가 * 를 클릭합니다.
 
 
 새 볼륨이 작업 환경에 추가됩니다.
 
-를 계속 진행합니다 link:task-manage-cvs-gcp.html#mount-the-cloud-volume["클라우드 볼륨을 마운트합니다"].
+클라우드 볼륨을 계속 마운트합니다.
 
 
 

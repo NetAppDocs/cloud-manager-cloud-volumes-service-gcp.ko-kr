@@ -40,7 +40,7 @@ link:https://console.cloud.google.com/marketplace/product/endpoints/cloudvolumes
 
 == 지원 지역
 
-link:https://cloud.google.com/solutions/partners/netapp-cloud-volumes/regional-availability["지원되는 Google Cloud 지역을 봅니다"^]
+https://cloud.netapp.com/cloud-volumes-global-regions#cvsGc["지원되는 Google Cloud 지역을 봅니다"^]
 
 
 
