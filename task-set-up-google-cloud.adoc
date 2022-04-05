@@ -6,6 +6,7 @@ summary: Cloud Manager는 Cloud Volumes Service API에 액세스하고 Google Cl
 ---
 = Google Cloud를 설정합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -7,6 +7,7 @@ summary: NetApp Cloud Volumes Service for Google Cloud는 엔터프라이즈 워
 ---
 = Google Cloud용 Cloud Volumes Service 문서
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

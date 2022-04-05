@@ -6,6 +6,7 @@ summary: 다음 단계를 따라 빠르게 시작하거나 링크를 따라 자�
 ---
 = Cloud Volumes Service for Google Cloud를 빠르게 시작합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

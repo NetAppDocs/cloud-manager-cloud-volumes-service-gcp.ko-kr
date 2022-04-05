@@ -6,6 +6,7 @@ summary: Cloud Manager에서 Cloud Volumes Service for Google Cloud 작업 환�
 ---
 = Google Cloud용 Cloud Volumes Service 작업 환경을 만듭니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

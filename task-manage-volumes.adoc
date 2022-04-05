@@ -6,6 +6,7 @@ summary: 스토리지 요구사항의 변화에 따라 기존 볼륨을 관리�
 ---
 = 기존 볼륨 관리
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

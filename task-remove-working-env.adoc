@@ -6,6 +6,7 @@ summary: Cloud Volumes Service for Google Cloud 구독과 Cloud Manager에서 �
 ---
 = Cloud Manager에서 Cloud Volumes Service를 제거합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

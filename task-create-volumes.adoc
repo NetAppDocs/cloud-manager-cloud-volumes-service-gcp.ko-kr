@@ -6,6 +6,7 @@ summary: Cloud Manager를 사용하면 Cloud Volumes Service for Google Cloud �
 ---
 = 볼륨을 생성 및 마운트합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

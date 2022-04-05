@@ -6,6 +6,7 @@ summary: Cloud Volumes Service for Google Cloud의 Cloud Manager의 새로운 �
 ---
 = 새로운 기능
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
